@@ -11,4 +11,4 @@ st.title("Scraping Website IMDB")
 df1 = pd.read_csv(fn1, encoding='latin1')
 
 # Menampilkan DataFrame sebagai tabel
-st.dataframe(df)
+st.dataframe(df1)
