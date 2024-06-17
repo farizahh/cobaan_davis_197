@@ -1,4 +1,5 @@
 import pandas as pd
+import streamlit as st
 
 # Nama file CSV
 fn1 = 'imdb_top.csv'
@@ -10,4 +11,4 @@ st.title("Scraping Website IMDB")
 df1 = pd.read_csv(fn1, encoding='latin1')
 
 # Menampilkan DataFrame sebagai tabel
-df1
+st.dataframe(df)
